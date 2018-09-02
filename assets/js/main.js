@@ -1,6 +1,7 @@
-function ok() {
-	document.getElementById('myFooter').innerHTML = '<div class="container">' +
-			  	'<div class="row">' +
+window.addEventListener('load',footerTemplate);
+function footerTemplate() {
+    document.getElementById('myFooter').innerHTML = '<div class="container">' +
+                    '<div class="row">' +
 					'<div class="col-sm-4">' +
 						'<h2>Latest Tweets</h2>' +
 						'<hr>' +
